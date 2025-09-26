@@ -4,27 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Truculenta:opsz,wght@12..72,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Week 7 Weather App</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city..." required />
-        <input type="submit" value="search" />
-      </form>
-    </header>
-    <main>
-      <h1 class="city-name" id="city">City Name</h1>
-      <p>
-        <span id="time">date/time</span> <span class="divider"> | </span>
-        <span id="description">weather description</span>
-        <br />
-        Humidity: <strong>%</strong>
-        <span class="divider"> | </span>
-        Wind: <strong>mph</strong>
-      </p>
-      ☀️ °F
-    </main>
+    <div class="container">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city..." required />
+          <input type="submit" value="search" />
+        </form>
+      </header>
+      <main>
+        <h1 class="city-name" id="city">City Name</h1>
+        <p>
+          <span id="time">date/time</span> <span class="divider"> | </span>
+          <span id="description">weather description</span>
+          <br />
+          Humidity: <strong>%</strong>
+          <span class="divider"> | </span>
+          Wind: <strong>mph</strong>
+        </p>
+        ☀️ °F
+    </div>  
+  </main>
     <footer>
       Coded by
       <a href="https://github.com/beckslange" target="_blank">Rebecca Lange</a>,
