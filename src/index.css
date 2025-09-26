@@ -42,6 +42,9 @@ main {
   margin: 0;
   line-height: 48px;
 }
+.app-data strong {
+  color: #ed5485;
+}
 .divider {
   color: #f9f7fe;
 }
@@ -49,8 +52,8 @@ main {
   display: flex;
 }
 .temp-icon {
-  margin-top: 22px;
-  font-size: 88px;
+  width: 88px;
+  height: 88px;
 }
 .temp {
   font-size: 88px;
